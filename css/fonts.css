@@ -137,7 +137,7 @@
 }
 
 @font-face {
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 6 Brands';
     font-weight: 400;
     src: url('../fonts/font-awesome/fa-brands-400.ttf') format('truetype');
 }
@@ -152,4 +152,9 @@
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
     src: url('../fonts/font-awesome/fa-solid-900.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    src: url('../fonts/font-awesome/fa-v4compatibility.ttf') format('truetype');
 }
