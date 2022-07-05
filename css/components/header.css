@@ -84,7 +84,7 @@
 .header__contacts {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex: 1 1 auto;
 }
 
@@ -96,4 +96,82 @@
 
 .header__contacts-instagram:hover {
     color: var(--red-darken-1);
+}
+
+.header__panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 22px;
+}
+
+.header__description {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: var(--grey-darken-2);
+    letter-spacing: .2em;
+    margin-left: 54px;
+}
+
+.header__controls {
+    margin-left: 68px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.header__controls-icon {
+    margin-right: 60px;
+}
+
+.header__controls-icon:last-child {
+    margin-right: 0;
+}
+
+.header__search {
+    margin-left: 90px;
+    position: relative;
+}
+
+.header__search-input {
+    background-color: #E1E1E1;
+    border: none;
+    padding: 19px 25px 19px 22px;
+    width: 385px;
+}
+
+.header__search-button {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    color: var(--red-darken-1);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header__catalog-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 34px;
+    height: 70px;
+    min-width: 302px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--red-darken-1);
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    transition: background-color .5s;
+}
+
+.header__catalog-button:hover {
+    background-color: var(--red-darken-2);
 }
