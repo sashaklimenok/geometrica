@@ -175,3 +175,8 @@
 .header__catalog-button:hover {
     background-color: var(--red-darken-2);
 }
+
+.header__slider {
+    margin-left: -80px;
+    min-height: 768px;
+}
