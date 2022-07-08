@@ -7,3 +7,7 @@
 .flex-container {
     display: flex;
 }
+
+.align-end {
+    align-items: flex-end;
+}
