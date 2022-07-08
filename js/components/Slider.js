@@ -37,8 +37,11 @@ class Slider {
         ul.classList.add('slide-pagination');
         Array.from(this.slides).forEach((_, index) => {
             const li = document.createElement('li');
-            li.textContent = index;
             li.setAttribute('data-point', index)
+            li.classList.add('slide-dot')
+            if (this.activeSlide === index) {
+                li.classList.add('active-slide')
+            }
             ul.append(li)
         });
 
@@ -46,6 +49,8 @@ class Slider {
 
         ul.addEventListener('click', (evt) => {
             this.activeSlide = evt.target.dataset.point;
+            Array.from(ul.children).forEach((item) => item.classList.remove('active-slide'));
+            evt.target.classList.add('active-slide')
             this.container.style.transform = `translateX(-${this.width * this.activeSlide}px)`
         })
     }
@@ -58,7 +63,7 @@ class Slider {
     }
 
     prev() {
-        if(this.activeSlide !== 0) {
+        if (this.activeSlide !== 0) {
             this.activeSlide = this.activeSlide - 1;
             this.container.style.transform = `translateX(-${this.width * this.activeSlide}px)`
         }

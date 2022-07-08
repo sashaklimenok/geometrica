@@ -180,7 +180,7 @@
 }
 
 .header__slide {
-    min-height: 768px;
+    min-height: 960px;
     background-image: url('../../images/slides/slide-1.jpg');
 }
 
@@ -215,4 +215,26 @@
 
 .header__slide-title-group {
     padding-left: 80px;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding-bottom: 218px;
+}
+
+.header .slide-pagination {
+    position: absolute;
+    bottom: 157px;
+    left: 380px;
+    display: flex;
+}
+.header .slide-dot {
+    width: 40px;
+    height: 6px;
+    cursor: pointer;
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.header .active-slide {
+    background-color: var(--red-darken-2);
 }
