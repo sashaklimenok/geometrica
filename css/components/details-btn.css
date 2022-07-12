@@ -1,0 +1,18 @@
+.details-btn {
+    width: 26px;
+    height: 26px;
+    background: var(--red-darken-1);
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: background .5s;
+}
+
+.details-btn:hover {
+    background: var(--red-darken-2);
+}

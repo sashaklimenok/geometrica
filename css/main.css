@@ -8,6 +8,7 @@
 @import url('./components/header.css');
 @import url('./components/phone-number.css');
 @import url('./components/slider.css');
+@import url('./components/details-btn.css');
 
 * {
     box-sizing: border-box;
