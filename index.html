@@ -125,20 +125,60 @@
                         <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="header__controls">
-                        <i class="fa-regular fa-user header__controls-icon"></i>
-                        <i class="fa-regular fa-heart header__controls-icon">
-                            <sup class="header__controls-count">0</sup>
+                        <i class="fa-regular fa-user header__controls-icon header__controls-icon--mobile"></i>
+                        <i class="fa-regular fa-heart header__controls-icon header__controls-icon--mobile">
+                            <sup class="header__controls-count header__controls-count--mobile">0</sup>
                         </i>
-                        <i class="fa-solid fa-cart-shopping header__controls-icon">
-                            <sup class="header__controls-count header__controls--active">21</sup>
+                        <i class="fa-solid fa-cart-shopping header__controls-icon header__controls-icon--mobile">
+                            <sup
+                                class="header__controls-count header__controls--active header__controls-count--mobile">21</sup>
                         </i>
                     </div>
                 </div>
             </div>
+            <nav class="header__mobile-menu">
+                <ul class="header__navigation-list header__navigation-list--mobile">
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item header__navigation-list-item--dropdown">
+                        <a class="header__navigation-link" href="#">Услуги</a>
+                        <ul class="header__navigation-sub-menu">
+                            <li class="header__navigation-list-item">
+                                <a class="header__navigation-link" href="#">Услуга 1</a>
+                            </li>
+                            <li class="header__navigation-list-item">
+                                <a class="header__navigation-link" href="#">Услуга 1</a>
+                            </li>
+                            <li class="header__navigation-list-item">
+                                <a class="header__navigation-link" href="#">Услуга 1</a>
+                            </li>
+                            <li class="header__navigation-list-item">
+                                <a class="header__navigation-link" href="#">Услуга 1</a>
+                            </li>
+                            <li class="header__navigation-list-item">
+                                <a class="header__navigation-link" href="#">Услуга 1 Услуга 1ihjasdashjd kji asf</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Оплата и доставка</a>
+                    </li>
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Акции</a>
+                    </li>
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Полезные советы</a>
+                    </li>
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Обратная связь</a>
+                    </li>
+                    <li class="header__navigation-list-item--mobile header__navigation-list-item">
+                        <a class="header__navigation-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
 
 
-        <div class="slider header__slider">
+        <!-- <div class="slider header__slider">
             <div class="slider__wrapper">
                 <div class="slider__slide header__slide">
                     <hgroup class="container header__slide-title-group">
@@ -183,13 +223,14 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
 
 
     </header>
 
 
-
+    <div class="overlay"></div>
+    
     <script src="./js/components/Slider.js"></script>
     <script src="./js/components/mobile-header-search.js"></script>
     <script src="./js/index.js"></script>

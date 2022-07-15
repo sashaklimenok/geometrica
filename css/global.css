@@ -21,4 +21,7 @@
     --section-title-color: var(--grey-darken-1);
     --product-title: var(--grey-darken-6);
     --text-color: var(--grey-darken-6);
+
+    --overlay-z-index: 100;
+    --header-menu-z-index: 101;
 }
