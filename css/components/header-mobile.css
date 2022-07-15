@@ -22,10 +22,6 @@
     width: 100%;
 }
 
-.header__search {
-    width: 100%;
-}
-
 .header__search-btn {
     background: none;
     border: none;
@@ -38,6 +34,29 @@
 
 .header__search-mobile-form--active {
     display: block;
+    flex: 1 1 auto;
+}
+
+.header__mobile-logo-wrapper {
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: 28px;
+}
+
+.header__description--mobile {
+    letter-spacing: 0.12em;
+    font-size: 10px;
+}
+
+.header__mobile-panel {
+    display: flex;
+}
+
+.header__catalog--mobile {
+    transform: translateY(0);
+    min-width: 153px;
+    height: 54px;
+    padding: 0 17px;
 }
 
 @media screen and (max-width: 768px) {
