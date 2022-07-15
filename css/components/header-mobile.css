@@ -85,8 +85,9 @@
     top: 0;
     bottom: 0;
     width: 207px;
-    right: -207px;
+    transform: translateX(-207px);
     background-color: #fff;
+    transition: transform .3s;
 }
 
 .header__navigation-list-item--mobile {
@@ -95,6 +96,10 @@
 
 .header__mobile-menu {
     z-index: var(--header-menu-z-index);
+}
+
+.header__mobile-menu--active {
+    transform: translateX(0);
 }
 
 @media screen and (max-width: 768px) {

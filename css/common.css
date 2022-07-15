@@ -30,3 +30,7 @@
     z-index: var(--overlay-z-index);
     display: none;
 }
+
+.overlay--active {
+    display: block;
+}
