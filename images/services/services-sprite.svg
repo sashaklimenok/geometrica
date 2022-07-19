@@ -1,0 +1,37 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" id="codepen">
+    <path d="M28 1L55 18.55V37.45L28 55L1 37.45V18.55L28 1Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 55.0002V37.4502" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M55 18.5498L28 37.4498L1 18.5498" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 37.4498L28 18.5498L55 37.4498" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M28 1V18.55" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53 59" id="cube">
+    <path d="M18.3782 52.0693V53.0377L17.5205 52.608" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M15.8322 51.7581L3.16992 45.3877" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M2.32447 44.9605L1.4668 44.5308V43.5625" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1.4668 41.6043V15.1885" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6.28 6.28"></path>
+    <path d="M1.46777 14.2076V13.2393L2.32545 13.6689" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M4.01172 14.5195L16.674 20.89" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M17.5205 21.3164L18.3782 21.7461V22.7175" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M18.3779 24.6719V51.0908" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M26.4687 32.2927L1.44238 44.5323V13.2406L26.4687 1.00098V32.2927Z" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M51.4941 44.5314V13.2396L26.4678 1V32.2918L32.8896 35.4334" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M24.5264 57.555L49.5527 45.3154" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M18.3779 52.9287L31.3599 46.5801" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M43.4043 25.9117V11.7666" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1 3"></path>
+    <path d="M32.8906 45.0143L40.5605 48.763V36.0564L32.8906 32.3076V45.0143Z" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M32.8906 32.3071L43.4041 27.8516L51.4951 31.3886L40.5605 36.0559" stroke="#FF0000" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" id="layers">
+    <path d="M28.0835 1L1 14.5417L28.0835 28.0835L55.167 14.5417L28.0835 1Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 41.625L28.0835 55.1668L55.167 41.625" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M1 28.084L28.0835 41.6257L55.167 28.084" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 45" id="truck">
+    <path d="M36.8333 1H1V32.0556H36.8333V1Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M36.833 12.9443H46.3886L53.5552 20.111V32.0554H36.833V12.9443Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M11.7505 44.0001C15.0489 44.0001 17.7228 41.3263 17.7228 38.0279C17.7228 34.7295 15.0489 32.0557 11.7505 32.0557C8.45218 32.0557 5.77832 34.7295 5.77832 38.0279C5.77832 41.3263 8.45218 44.0001 11.7505 44.0001Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M42.8052 44.0001C46.1036 44.0001 48.7774 41.3263 48.7774 38.0279C48.7774 34.7295 46.1036 32.0557 42.8052 32.0557C39.5069 32.0557 36.833 34.7295 36.833 38.0279C36.833 41.3263 39.5069 44.0001 42.8052 44.0001Z" stroke="#FF0000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+</svg>

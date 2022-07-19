@@ -11,6 +11,7 @@
 @import url('./components/details-btn.css');
 @import url('./components/header-mobile.css');
 @import url('./components/categories.css');
+@import url('./components/services.css');
 
 * {
     box-sizing: border-box;
