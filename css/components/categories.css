@@ -92,3 +92,25 @@
 .categories__category-description--granit {
     padding: 55px 0 0 49px;
 }
+
+.categories__title-wrapper {
+    width: 210px;
+    height: 130px;
+    background: #fff;
+    padding-top: 37px;
+    padding-left: 37px;
+    position: absolute;
+    top: 95px;
+    left: 175px;
+}
+
+.categories__title--wallpaper {
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: -0.05em;
+    color: #3E3E3E;
+}
+
+.categories__category-description--wallpaper {
+    color: #B8B8B8;
+}
