@@ -10,6 +10,7 @@
 @import url('./components/slider.css');
 @import url('./components/details-btn.css');
 @import url('./components/header-mobile.css');
+@import url('./components/categories.css');
 
 * {
     box-sizing: border-box;
