@@ -9,3 +9,14 @@
     text-transform: uppercase;
     color: #EBE5D2;
 }
+
+.categories__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
