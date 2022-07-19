@@ -1,10 +1,20 @@
+.categories {
+    position: relative;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.categories__block {
+    display: block;
+    text-decoration: none;
+}
+
 .categories__category-description {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
-    text-align: right;
     letter-spacing: 0.3em;
     text-transform: uppercase;
     color: #EBE5D2;
@@ -19,4 +29,66 @@
     letter-spacing: -0.05em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+.categories__ceramics-granite {
+    width: 560px;
+    height: 400px;
+    background-image: url('../../images/categories/keramogranit.jpg');
+    position: absolute;
+    left: 0;
+    top: -80px;
+    z-index: 1;
+}
+
+.categories__wallpaper {
+    width: 715px;
+    height: 320px;
+    background-image: url('../../images/categories/walpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: 160px 80px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: -160px;
+    left: calc(560px - 80px);
+}
+
+.categories__tile {
+    width: 320px;
+    height: 320px;
+    background-image: url('../../images/categories/tail.jpg');
+    position: absolute;
+    right: 0;
+    top: -80px;
+}
+
+.categories__speciall {
+    width: 480px;
+    height: 160px;
+    background-image: url('../../images/categories/special.jpg');
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+
+.categories__formats {
+    width: 400px;
+    height: 400px;
+    background-image: url('../../images/categories/big-format.jpg');
+    position: absolute;
+    left: 560px;
+    top: 160px;
+}
+
+.categories__others {
+    width: 240px;
+    height: 240px;
+    background-image: url('../../images/categories/dry-mix.jpg');
+    position: absolute;
+    right: 0;
+    top: 320px;
+}
+
+.categories__category-description--granit {
+    padding: 55px 0 0 49px;
 }
