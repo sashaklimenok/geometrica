@@ -14,6 +14,7 @@
 @import url('./components/services.css');
 @import url('./components/discounts.css');
 @import url('./components/footer.css');
+@import url('./components/products.css');
 
 * {
     box-sizing: border-box;
